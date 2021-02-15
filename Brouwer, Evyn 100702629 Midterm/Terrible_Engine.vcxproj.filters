@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Input">
+      <UniqueIdentifier>{953A660D-014F-8EBE-CAD0-311E36A48AEF}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Logging">
+      <UniqueIdentifier>{AC6878E8-1848-F783-2160-825A8DBE5DE5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RenderStuff">
+      <UniqueIdentifier>{ED6B3C01-5921-B5F6-E215-AFCD4ECAABFA}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RenderStuff\Lighting">
+      <UniqueIdentifier>{12BA125E-FE48-9C27-A767-B02293D5ACCD}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RenderStuff\Model">
+      <UniqueIdentifier>{ED529D4C-5969-9BE2-A2E0-26040E366C6A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RenderStuff\ShaderStuff">
+      <UniqueIdentifier>{DB2BDCA8-4763-2440-506D-8863BC234B39}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resources">
+      <UniqueIdentifier>{000BCD17-6C75-818E-B5B3-3234215D5FE3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SceneStuff">
+      <UniqueIdentifier>{9B4C72CC-8704-B419-F00B-8D75DCE24E0A}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\Game.h" />
+    <ClInclude Include="src\Input\InputHandler.h">
+      <Filter>Input</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Logging\Logger.h">
+      <Filter>Logging</Filter>
+    </ClInclude>
+    <ClInclude Include="src\RenderStuff\Camera.h">
+      <Filter>RenderStuff</Filter>
+    </ClInclude>
+    <ClInclude Include="src\RenderStuff\Lighting\LightCube.h">
+      <Filter>RenderStuff\Lighting</Filter>
+    </ClInclude>
+    <ClInclude Include="src\RenderStuff\Model\Mesh.h">
+      <Filter>RenderStuff\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="src\RenderStuff\Model\MeshContainer.h">
+      <Filter>RenderStuff\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="src\RenderStuff\Model\Model.h">
+      <Filter>RenderStuff\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="src\RenderStuff\Model\TextureContainer.h">
+      <Filter>RenderStuff\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="src\RenderStuff\Model\Transform.h">
+      <Filter>RenderStuff\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="src\RenderStuff\ShaderStuff\Shader.h">
+      <Filter>RenderStuff\ShaderStuff</Filter>
+    </ClInclude>
+    <ClInclude Include="src\RenderStuff\Structs.h">
+      <Filter>RenderStuff</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Resources\ResourceManager.h">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Resources\Types.h">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="src\SceneStuff\MenuScene.h">
+      <Filter>SceneStuff</Filter>
+    </ClInclude>
+    <ClInclude Include="src\SceneStuff\Scene.h">
+      <Filter>SceneStuff</Filter>
+    </ClInclude>
+    <ClInclude Include="src\SceneStuff\SceneManager.h">
+      <Filter>SceneStuff</Filter>
+    </ClInclude>
+    <ClInclude Include="src\SceneStuff\TestScene.h">
+      <Filter>SceneStuff</Filter>
+    </ClInclude>
+    <ClInclude Include="src\RenderStuff\FrameBuffer.h" />
+    <ClInclude Include="src\RenderStuff\PostEffect.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\Game.cpp" />
+    <ClCompile Include="src\Input\InputHandler.cpp">
+      <Filter>Input</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Logging\Logger.cpp">
+      <Filter>Logging</Filter>
+    </ClCompile>
+    <ClCompile Include="src\RenderStuff\Camera.cpp">
+      <Filter>RenderStuff</Filter>
+    </ClCompile>
+    <ClCompile Include="src\RenderStuff\Lighting\LightCube.cpp">
+      <Filter>RenderStuff\Lighting</Filter>
+    </ClCompile>
+    <ClCompile Include="src\RenderStuff\Model\Mesh.cpp">
+      <Filter>RenderStuff\Model</Filter>
+    </ClCompile>
+    <ClCompile Include="src\RenderStuff\Model\MeshContainer.cpp">
+      <Filter>RenderStuff\Model</Filter>
+    </ClCompile>
+    <ClCompile Include="src\RenderStuff\Model\Model.cpp">
+      <Filter>RenderStuff\Model</Filter>
+    </ClCompile>
+    <ClCompile Include="src\RenderStuff\Model\TextureContainer.cpp">
+      <Filter>RenderStuff\Model</Filter>
+    </ClCompile>
+    <ClCompile Include="src\RenderStuff\Model\Transform.cpp">
+      <Filter>RenderStuff\Model</Filter>
+    </ClCompile>
+    <ClCompile Include="src\RenderStuff\ShaderStuff\Shader.cpp">
+      <Filter>RenderStuff\ShaderStuff</Filter>
+    </ClCompile>
+    <ClCompile Include="src\RenderStuff\Structs.cpp">
+      <Filter>RenderStuff</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Resources\ResourceManager.cpp">
+      <Filter>Resources</Filter>
+    </ClCompile>
+    <ClCompile Include="src\SceneStuff\MenuScene.cpp">
+      <Filter>SceneStuff</Filter>
+    </ClCompile>
+    <ClCompile Include="src\SceneStuff\Scene.cpp">
+      <Filter>SceneStuff</Filter>
+    </ClCompile>
+    <ClCompile Include="src\SceneStuff\SceneManager.cpp">
+      <Filter>SceneStuff</Filter>
+    </ClCompile>
+    <ClCompile Include="src\SceneStuff\TestScene.cpp">
+      <Filter>SceneStuff</Filter>
+    </ClCompile>
+    <ClCompile Include="src\glad.c" />
+    <ClCompile Include="src\main.cpp" />
+    <ClCompile Include="src\RenderStuff\FrameBuffer.cpp" />
+    <ClCompile Include="src\RenderStuff\PostEffect.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\Shaders\passThrough.vs" />
+    <None Include="res\Shaders\passThrough.fs" />
+  </ItemGroup>
+</Project>
